@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Redirect, NavLink } from "react-router-dom";
 import TopicPage from "./TopicPage";
 import "./App.css"; // Import external styles
 
@@ -28,6 +28,9 @@ function App() {
           ))}
         </nav>
         <Routes>
+          <Route exact path="/">
+            <Redirect to="/buddhism" />
+          </Route>
           {topics.map((topic) => (
             <Route
               key={topic}
