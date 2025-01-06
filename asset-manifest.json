@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/watts-audio-player/static/css/main.3161b224.css",
+    "main.css": "/watts-audio-player/static/css/main.0b9be7de.css",
     "main.js": "/watts-audio-player/static/js/main.419fb6e3.js",
     "index.html": "/watts-audio-player/index.html",
-    "main.3161b224.css.map": "/watts-audio-player/static/css/main.3161b224.css.map",
+    "main.0b9be7de.css.map": "/watts-audio-player/static/css/main.0b9be7de.css.map",
     "main.419fb6e3.js.map": "/watts-audio-player/static/js/main.419fb6e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.3161b224.css",
+    "static/css/main.0b9be7de.css",
     "static/js/main.419fb6e3.js"
   ]
 }
