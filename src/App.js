@@ -13,7 +13,7 @@ function App() {
   ];
 
   return (
-    <Router>
+    <Router basename="/watts-audio-player">
       <div className="app">
         <nav className="navbar">
           {topics.map((topic) => (
