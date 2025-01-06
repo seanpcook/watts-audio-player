@@ -146,6 +146,7 @@
 /* Marquee Container */
 .marquee-container {
   width: 100%;
+  height: 40px;
   overflow: hidden; /* Hide overflow for the scrolling effect */
   background-color: #1f1f1f;
   border-radius: 4px;
@@ -156,6 +157,7 @@
 
 .marquee {
   display: flex;
+  align-items: center;
   white-space: nowrap; /* Prevent text wrapping */
   animation: scroll 90s linear infinite; /* Smooth, continuous scrolling */
 }
@@ -164,6 +166,7 @@
   display: inline-block;
   margin-right: 125px; /* Space between quotes */
   font-size: 16px;
+  line-height: 1.5;
   color: #ffa726;
   font-style: italic;
 }
