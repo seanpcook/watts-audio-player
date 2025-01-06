@@ -146,7 +146,7 @@
 /* Marquee Container */
 .marquee-container {
   width: 100%;
-  height: 100%;
+  height: 24px;
   overflow: hidden; /* Hide overflow for the scrolling effect */
   background-color: #1f1f1f;
   border-radius: 4px;
