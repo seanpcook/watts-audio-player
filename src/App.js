@@ -38,7 +38,6 @@ function App() {
               element={<TopicPage topic={topic} />}
             />
           ))}
-          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>
     </Router>
