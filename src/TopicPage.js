@@ -89,11 +89,7 @@ function TopicPage({ topic }) {
               {track.notes?.quotes?.length > 0 && (
                 <div className="marquee-container">
                   <div className="marquee">
-                    {track.notes.quotes.map((quote, idx) => (
-                      <span key={idx} className="quote">
-                        {quote}
-                      </span>
-                    ))}
+                    <span className="quote">{track.notes.oneLineEncapsulation}</span>
                   </div>
                 </div>
               )}

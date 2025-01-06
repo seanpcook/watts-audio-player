@@ -160,7 +160,7 @@
   display: flex;
   align-items: center;
   white-space: nowrap; /* Prevent text wrapping */
-  animation: scroll 90s linear infinite; /* Smooth, continuous scrolling */
+  animation: scroll 35s linear infinite; /* Smooth, continuous scrolling */
 }
 
 .quote {
@@ -178,6 +178,6 @@
     transform: translateX(100%); /* Start outside the right of the container */
   }
   100% {
-    transform: translateX(-950%); /* End outside the left of the container */
+    transform: translateX(-375%); /* End outside the left of the container */
   }
 }
