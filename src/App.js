@@ -28,9 +28,7 @@ function App() {
           ))}
         </nav>
         <Routes>
-          <Route exact path="/">
-            <Navigate to="/buddhism" />
-          </Route>
+          <Route path="/" element={<Navigate to="/buddhism" />} />
           {topics.map((topic) => (
             <Route
               key={topic}
@@ -38,6 +36,7 @@ function App() {
               element={<TopicPage topic={topic} />}
             />
           ))}
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>
     </Router>
