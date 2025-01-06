@@ -93,14 +93,16 @@
   background-color: rgba(0, 0, 0, 0.9);
   color: #e0e0e0;
   z-index: 1000;
-  overflow-y: auto;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .overlay-content {
-  max-width: 1300px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
   background-color: #1f1f1f;
   border-radius: 12px;
   padding: 30px;
@@ -108,6 +110,13 @@
   padding-bottom: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
   text-align: left;
+}
+
+@media (max-width: 768px) {
+  .overlay-content {
+    padding: 15px;
+    font-size: 14px;
+  }
 }
 
 .overlay-content h2 {

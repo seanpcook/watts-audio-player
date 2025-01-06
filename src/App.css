@@ -12,11 +12,26 @@ body {
 
 .navbar {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   padding: 15px;
   background-color: #1f1f1f;
+  overflow-x: auto;
+  white-space: nowrap;
   border-bottom: 2px solid #333;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px; /* Adjust spacing between list items */
+}
+
+nav li {
+  display: inline-block;
 }
 
 .nav-link {
@@ -38,6 +53,7 @@ body {
   text-decoration: underline;
   font-weight: bold;
   color: #ffa726;
+  transition: background-color 0.3s ease;
 }
 
 .header {
