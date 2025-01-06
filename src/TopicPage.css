@@ -146,10 +146,11 @@
 /* Marquee Container */
 .marquee-container {
   width: 100%;
-  height: 40px;
+  height: 30px;
   overflow: hidden; /* Hide overflow for the scrolling effect */
   background-color: #1f1f1f;
   border-radius: 4px;
+  align-items: center;
   margin-bottom: 10px; /* Space between the marquee and audio controls */
   padding: 5px 0;
   box-shadow: inset 20px 5px 20px rgba(0, 0, 0, 0.5);
