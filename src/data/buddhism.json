@@ -1,9 +1,9 @@
 [
     {
-      "url": "http://localhost:3000/audio/Buddhism/AWB01.mp3",
+      "url": "https://seanpcook.github.io/watts-audio-player/audio/Buddhism/AWB01.mp3",
       "title": "Net of Jewels",
       "artist": "Alan Watts",
-      "artwork": "http://localhost:3000/artwork/AWB01.png",
+      "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWB01.png",
       "notes": {
         "oneLineEncapsulation": "Kegon teaches the interconnectedness of all phenomena through the metaphor of a jewel net, symbolizing the unity of diversity.",
         "background": [
@@ -53,10 +53,10 @@
       }
     },
     {
-      "url": "http://localhost:3000/audio/Buddhism/AWB02.mp3",
+      "url": "https://seanpcook.github.io/watts-audio-player/audio/Buddhism/AWB02.mp3",
       "title": "Problems in Meditation",
       "artist": "Alan Watts",
-      "artwork": "http://localhost:3000/artwork/AWB02.png",
+      "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWB02.png",
       "notes": {
         "oneLineEncapsulation": "Alan Watts taught that meditation is a process of changing consciousness and realizing the interconnectedness of existence.",
         "background": [
@@ -106,10 +106,10 @@
       }
     },
     {
-      "url": "http://localhost:3000/audio/Buddhism/AWB03.mp3",
+      "url": "https://seanpcook.github.io/watts-audio-player/audio/Buddhism/AWB03.mp3",
       "title": "Thusness",
       "artist": "Alan Watts",
-      "artwork": "http://localhost:3000/artwork/AWB03.png",
+      "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWB03.png",
       "notes": {
         "oneLineEncapsulation": "Buddhism teaches awakening from the illusion of self and the cyclical nature of existence through understanding and compassion.",
         "background": [
@@ -159,10 +159,10 @@
       }
     },
     {
-      "url": "http://localhost:3000/audio/Buddhism/AWB04.mp3",
+      "url": "https://seanpcook.github.io/watts-audio-player/audio/Buddhism/AWB04.mp3",
       "title": "World as Consciousness",
       "artist": "Alan Watts",
-      "artwork": "http://localhost:3000/artwork/AWB04.png",
+      "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWB04.png",
       "notes": {
         "oneLineEncapsulation": "Mahayana Buddhism teaches that awakening (Bodhi) is achieved through a transformative understanding of consciousness, transcending fixed views of reality.",
         "background": [
@@ -212,10 +212,10 @@
       }
     },
     {
-      "url": "http://localhost:3000/audio/Buddhism/AWB05.mp3",
+      "url": "https://seanpcook.github.io/watts-audio-player/audio/Buddhism/AWB05.mp3",
       "title": "Zen Reconsidered",
       "artist": "Alan Watts",
-      "artwork": "http://localhost:3000/artwork/AWB05.png",
+      "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWB05.png",
       "notes": {
         "oneLineEncapsulation": "Zen teaches the unity of all existence, emphasizing direct experience over conceptual understanding.",
         "background": [

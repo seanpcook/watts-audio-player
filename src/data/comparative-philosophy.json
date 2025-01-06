@@ -1,9 +1,9 @@
 [
   {
-    "url": "http://localhost:3000/audio/ComparativePhilosophy/AWCP01.mp3",
+    "url": "https://seanpcook.github.io/watts-audio-player/ComparativePhilosophy/AWCP01.mp3",
     "title": "Mind Over Mind",
     "artist": "Alan Watts",
-    "artwork": "http://localhost:3000/artwork/AWCP01.png",
+    "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWCP01.png",
     "notes": {
       "oneLineEncapsulation": "Zen emphasizes the unity of all existence, encouraging direct experience over conceptual understanding.",
       "background": [
@@ -53,10 +53,10 @@
     }
   },
   {
-    "url": "http://localhost:3000/audio/ComparativePhilosophy/AWCP02.mp3",
+    "url": "https://seanpcook.github.io/watts-audio-player/audio/ComparativePhilosophy/AWCP02.mp3",
     "title": "Philosophy of Nature",
     "artist": "Alan Watts",
-    "artwork": "http://localhost:3000/artwork/AWCP02.png",
+    "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWCP02.png",
     "notes": {
       "oneLineEncapsulation": "Reality is a wiggly, dynamic process, not a fixed, materialistic concept.",
       "background": [
@@ -106,10 +106,10 @@
     }
   },
   {
-    "url": "http://localhost:3000/audio/ComparativePhilosophy/AWCP03.mp3",
+    "url": "https://seanpcook.github.io/watts-audio-player/audio/ComparativePhilosophy/AWCP03.mp3",
     "title": "The Cosmic Drama",
     "artist": "Alan Watts",
-    "artwork": "http://localhost:3000/artwork/AWPH.png",
+    "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWPH.png",
     "notes": {
       "oneLineEncapsulation": "Life is a serious game where existence intertwines playfulness and profound responsibility.",
       "background": [
@@ -159,33 +159,33 @@
     }
   },
   {
-    "url": "http://localhost:3000/audio/ComparativePhilosophy/AWCP04.mp3",
+    "url": "https://seanpcook.github.io/watts-audio-player/audio/ComparativePhilosophy/AWCP04.mp3",
     "title": "Spectrum of Love",
     "artist": "Alan Watts",
-    "artwork": "http://localhost:3000/artwork/AWPH.png"
+    "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWPH.png"
   },
   {
-    "url": "http://localhost:3000/audio/ComparativePhilosophy/AWCP05.mp3",
+    "url": "https://seanpcook.github.io/watts-audio-player/audio/ComparativePhilosophy/AWCP05.mp3",
     "title": "Love of Waters",
     "artist": "Alan Watts",
-    "artwork": "http://localhost:3000/artwork/AWPH.png"
+    "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWPH.png"
   },
   {
-    "url": "http://localhost:3000/audio/ComparativePhilosophy/AWCP06.mp3",
+    "url": "https://seanpcook.github.io/watts-audio-player/audio/ComparativePhilosophy/AWCP06.mp3",
     "title": "Game of Yes and No",
     "artist": "Alan Watts",
-    "artwork": "http://localhost:3000/artwork/AWPH.png"
+    "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWPH.png"
   },
   {
-    "url": "http://localhost:3000/audio/ComparativePhilosophy/AWCP07.mp3",
+    "url": "https://seanpcook.github.io/watts-audio-player/audio/ComparativePhilosophy/AWCP07.mp3",
     "title": "The Smell of Burnt Almonds",
     "artist": "Alan Watts",
-    "artwork": "http://localhost:3000/artwork/AWPH.png"
+    "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWPH.png"
   },
   {
-    "url": "http://localhost:3000/audio/ComparativePhilosophy/AWCP08.mp3",
+    "url": "https://seanpcook.github.io/watts-audio-player/audio/ComparativePhilosophy/AWCP08.mp3",
     "title": "Spiritual Alchemy",
     "artist": "Alan Watts",
-    "artwork": "http://localhost:3000/artwork/AWPH.png"
+    "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWPH.png"
   }
 ]
