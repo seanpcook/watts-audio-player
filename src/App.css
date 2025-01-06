@@ -1,0 +1,50 @@
+/* Dark mode base styles */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  background-color: #1f1f1f;
+  border-bottom: 2px solid #333;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #e0e0e0;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: color 0.3s, background-color 0.3s;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: #333;
+  color: #ffa726;
+}
+
+.active-nav-link {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #ffa726;
+}
+
+.header {
+  font-size: 28px;
+  margin: 20px 0;
+  color: #ffa726;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px #000;
+}
