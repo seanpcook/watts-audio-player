@@ -371,9 +371,56 @@
     }
   },
   {
-    "url": "https://seanpcook.github.io/watts-audio-player/audio/ComparativePhilosophy/AWCP06.mp3",
+    "url": "https://seanpcook.github.io/watts-audio-player/audio/ComparativePhilosophy/AWCP08.mp3",
     "title": "Spiritual Alchemy",
     "artist": "Alan Watts",
-    "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWPH.png"
+    "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWCP08.png",
+    "notes": {
+      "oneLineEncapsulation": "Alan Watts' philosophy emphasizes the interconnectedness of self and universe, challenging the notion of individual identity.",
+      "background": [
+        "Alan Watts was a British writer and speaker known for interpreting Eastern philosophy for Western audiences.",
+        "He studied at King's College London and later traveled to the United States, where he became influential in the counterculture movement.",
+        "Watts authored over 25 books and numerous articles on philosophy, psychology, and spirituality.",
+        "He popularized ideas from Zen Buddhism, Taoism, and Hinduism in a way that resonated with Western audiences.",
+        "His charismatic speaking style and engaging writing made complex philosophies accessible to the masses."
+      ],
+      "school": "Eastern Philosophy: Eastern philosophy encompasses various spiritual traditions from Asia, emphasizing holistic views of reality, the interconnectedness of all beings, and the importance of understanding one's true nature.",
+      "impactfulIdeas": [
+        "The self is an illusion; true identity is the universe experiencing itself.",
+        "Duality is an illusion; understanding the harmony between opposites leads to enlightenment.",
+        "The importance of mindfulness and being present in the moment.",
+        "The role of psychedelics in enhancing consciousness and understanding reality.",
+        "The necessity of skillful means (Upaya) in spiritual practices and daily life."
+      ],
+      "primaryAdvice": [
+        "Realize that the boundaries between self and other are artificial; you are part of the universe.",
+        "Embrace life's uncertainties and paradoxes rather than seeking absolute certainty.",
+        "Cultivate mindfulness to experience the present moment fully and deeply.",
+        "Engage with spiritual practices but balance them with practical skills for a fulfilling life.",
+        "Recognize that societal norms can often obscure deeper truths about existence."
+      ],
+      "works": [
+        "*The Way of Zen*: An exploration of Zen Buddhism and its principles.",
+        "*The Wisdom of Insecurity*: Discusses how to find peace in an uncertain world.",
+        "*The Book on the Taboo Against Knowing Who You Are*: Challenges conventional views of identity.",
+        "*Tao: The Watercourse Way*: A study of Taoism and its implications for modern living.",
+        "*The Joyous Cosmology*: An exploration of consciousness and the experience of reality."
+      ],
+      "quotes": [
+        "\"You are the universe experiencing itself.\"",
+        "\"The more a thing tends to be permanent, the more it tends to be lifeless.\"",
+        "\"The world is not a thing; it is a process.\"",
+        "\"To be free, you must be willing to be a fool.\"",
+        "\"What you think of as 'you' is just a pattern in the universe.\""
+      ],
+      "application": "Something is Wattsian if it reflects an understanding of the interconnectedness of all things, embracing the fluidity of identity and the importance of experiencing life fully.",
+      "advices": [
+        "Embrace uncertainty and let go of the need for rigid definitions of self.",
+        "Practice mindfulness to deepen your connection with the present moment.",
+        "Explore various spiritual traditions to find what resonates with you personally.",
+        "Learn skills that bring joy and fulfillment to your life, enhancing your experiences.",
+        "Approach life as a playful act, understanding the beauty in its inherent unpredictability."
+      ]
+    }
   }
 ]
