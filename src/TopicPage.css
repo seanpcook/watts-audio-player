@@ -123,13 +123,6 @@
   display: none;
 }
 
-@media (max-width: 768px) {
-  .overlay-content {
-    padding: 15px;
-    font-size: 14px;
-  }
-}
-
 .overlay-content h2 {
   color: #ffa726;
 }
@@ -147,6 +140,18 @@
 
 .close-overlay:hover {
   color: #ff5722;
+}
+
+@media (max-width: 768px) {
+  .overlay-content {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .close-overlay  {
+    font-size: 35px;
+    right: 10px;
+  }
 }
 
 /* Marquee Container */
