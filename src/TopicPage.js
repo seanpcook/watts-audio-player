@@ -12,7 +12,7 @@ function TopicPage({ topic }) {
   useEffect(() => {
     const fetchTopicData = async () => {
       try {
-        const response = await fetch(`data/${topic.toLowerCase().replace(/\s+/g, "-")}.json`);
+        const response = await fetch(`data/${topic.toLowerCase().replace(/\s+/g, "-").replace(/-&/g, "")}.json`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
