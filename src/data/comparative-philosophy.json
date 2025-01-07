@@ -268,7 +268,54 @@
     "url": "https://seanpcook.github.io/watts-audio-player/audio/ComparativePhilosophy/AWCP06.mp3",
     "title": "Game of Yes and No",
     "artist": "Alan Watts",
-    "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWPH.png"
+    "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWCP06.png",
+    "notes": {
+      "oneLineEncapsulation": "The I Ching teaches that opposites are interconnected and that change is constant in the universe.",
+      "background": [
+        "The I Ching, or Book of Changes, dates back to around 1300 BC.",
+        "It is one of the oldest Chinese classics and a foundational text of Chinese philosophy.",
+        "The text uses a system of hexagrams to express complex ideas about change and duality.",
+        "It has influenced various fields, including philosophy, psychology, and even computer science.",
+        "The I Ching serves as a guide for understanding the balance of yin and yang."
+      ],
+      "school": "Daoism: Daoism emphasizes living in harmony with the Dao (the Way), which encompasses the natural order of the universe and the interplay of opposites.",
+      "impactfulIdeas": [
+        "The concept of yin and yang illustrates the interdependence of opposites.",
+        "Change is the only constant; understanding this is key to navigating life.",
+        "All phenomena can be understood through the lens of duality and balance.",
+        "Life is a dynamic process, not a static state; embracing change is essential.",
+        "The I Ching provides a framework for decision-making based on natural principles."
+      ],
+      "primaryAdvice": [
+        "Embrace the fluid nature of existence and adapt to change gracefully.",
+        "Recognize that opposites are not in conflict but are part of a greater whole.",
+        "Understand that every gain involves a loss; balance is key to harmony.",
+        "Use the wisdom of the I Ching to reflect on personal situations and decisions.",
+        "Cultivate awareness of the interplay between your actions and their consequences."
+      ],
+      "works": [
+        "**I Ching (Book of Changes)**: A foundational text discussing the principles of change and duality.",
+        "**Hexagrams**: 64 combinations of lines representing various situations and their transformations.",
+        "**Commentaries**: Various philosophical commentaries that elaborate on the meanings of the hexagrams.",
+        "**Translations**: Numerous translations and interpretations have emerged over centuries, influencing Western thought.",
+        "**Applications in divination**: Used as a tool for guidance and insight into personal dilemmas."
+      ],
+      "quotes": [
+        "\"Change is the only constant.\"",
+        "\"Without yin, there is no yang.\"",
+        "\"In the depths of darkness, light is born.\"",
+        "\"The great way is easy, yet people prefer the side paths.\"",
+        "\"To know the world, one must first know oneself.\""
+      ],
+      "application": "Something is I Ching-ian if it embodies the principles of change, duality, and the interdependence of opposites, reflecting the wisdom of balancing yin and yang.",
+      "advices": [
+        "Accept that change is natural and inevitable; embrace it rather than resist.",
+        "Seek balance in your life by acknowledging both sides of any situation.",
+        "Reflect on your choices, understanding that every action has a corresponding consequence.",
+        "Cultivate patience and awareness; the answers often emerge in the flow of time.",
+        "Use the I Ching as a tool for introspection and guidance in life's complexities."
+      ]
+    }
   },
   {
     "url": "https://seanpcook.github.io/watts-audio-player/audio/ComparativePhilosophy/AWCP07.mp3",
