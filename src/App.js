@@ -28,7 +28,7 @@ function App() {
           ))}
         </nav>
         <Routes>
-        <Route path="/" element={<Navigate to="/buddhism" replace />} />
+        <Route path="/" element={<Navigate to="/" replace />} />
           {topics.map((topic) => (
             <Route
               key={topic}
@@ -36,6 +36,7 @@ function App() {
               element={<TopicPage topic={topic} />}
             />
           ))}
+          <Route path="*" element={<Navigate to="/" replace/>} />
         </Routes>
       </div>
     </Router>
