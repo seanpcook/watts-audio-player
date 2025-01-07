@@ -1,20 +1,20 @@
 [
   {
-    "url": "http://localhost:3000/audio/ComparativeReligion/AWPH.mp3",
+    "url": "https://seanpcook.github.io/watts-audio-player/audio/ComparativeReligion/AWPH.mp3",
     "title": "Mind Over Mind",
     "artist": "Alan Watts",
-    "artwork": "http://localhost:3000/artwork/AWPH.png"
+    "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWPH.png"
   },
   {
-    "url": "http://localhost:3000/audio/ComparativeReligion/AWPH.mp3",
+    "url": "https://seanpcook.github.io/watts-audio-player/audio/ComparativeReligion/AWPH.mp3",
     "title": "Philosophy of Nature",
     "artist": "Alan Watts",
-    "artwork": "http://localhost:3000/artwork/AWPH.png"
+    "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWPH.png"
   },
   {
-    "url": "http://localhost:3000/audio/ComparativeReligion/AWPH.mp3",
+    "url": "https://seanpcook.github.io/watts-audio-player/audio/ComparativeReligion/AWPH.mp3",
     "title": "The Cosmic Drama",
     "artist": "Alan Watts",
-    "artwork": "http://localhost:3000/artwork/AWPH.png"
+    "artwork": "https://seanpcook.github.io/watts-audio-player/artwork/AWPH.png"
   }
 ]
