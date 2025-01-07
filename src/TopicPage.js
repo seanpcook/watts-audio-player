@@ -22,6 +22,9 @@ function TopicPage({ topic }) {
       "Early Radio Talks": earlyRadioTalks,
       "Eastern & Western Zen": easternWesternZen,
     };
+    console.log("Fetching data for topic:", topic);
+    console.log("Data fetched:", topicData[topic]);
+
     return topicData[topic];
   }
 

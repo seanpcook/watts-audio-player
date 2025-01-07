@@ -28,7 +28,7 @@ function App() {
           ))}
         </nav>
         <Routes>
-          <Route path="/" element={<Navigate to="/buddhism" />} />
+          <Route path="/" element={<Navigate to="/" />} />
           {topics.map((topic) => (
             <Route
               key={topic}
