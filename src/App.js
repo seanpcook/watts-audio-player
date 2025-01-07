@@ -12,8 +12,6 @@ function App() {
     "Eastern & Western Zen",
   ];
 
-  const defaultTopic = topics[0];
-
   return (
     <Router basename="/watts-audio-player">
       <div className="app">
@@ -30,7 +28,7 @@ function App() {
           ))}
         </nav>
         <Routes>
-        <Route path="/" element={<Navigate to={`/${defaultTopic.toLowerCase().replace(/\s+/g, "-")}`} />} />
+        <Route path="/" element={<Navigate to="/buddhism" replace />} />
           {topics.map((topic) => (
             <Route
               key={topic}
@@ -38,7 +36,7 @@ function App() {
               element={<TopicPage topic={topic} />}
             />
           ))}
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="*" element={<Navigate to="/" replace/>} />
         </Routes>
       </div>
     </Router>
