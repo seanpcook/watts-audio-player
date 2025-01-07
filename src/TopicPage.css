@@ -150,6 +150,7 @@
 
   .close-overlay  {
     font-size: 35px;
+    top: 30px;
     right: 10px;
   }
 }

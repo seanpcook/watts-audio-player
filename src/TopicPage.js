@@ -101,10 +101,10 @@ function TopicPage({ topic }) {
 
       {overlayContent && (
         <div className="overlay">
-          <div className="overlay-content">
-            <button className="close-overlay" onClick={closeOverlay}>
+          <button className="close-overlay" onClick={closeOverlay}>
               ×
-            </button>
+          </button>
+          <div className="overlay-content">
             <div className="overlay-header">
               <h2>Notes - {overlayContent.title}</h2>
             </div>
