@@ -2,44 +2,38 @@ import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileText } from "@fortawesome/free-regular-svg-icons";
 import "./TopicPage.css";
-import buddhism from "./data/buddhism.json";
-import comparativePhilosophy from "./data/comparative-philosophy.json";
-import comparativeReligion from "./data/comparative-religion.json";
-import earlyRadioTalks from "./data/early-radio-talks.json";
-import easternWesternZen from "./data/eastern-western-zen.json";
 
 function TopicPage({ topic }) {
   const [tracks, setTracks] = useState([]);
   const [error, setError] = useState(null);
-  const [overlayContent, setOverlayContent] = useState(null); // Overlay content state
+  const [overlayContent, setOverlayContent] = useState(null);
   const [currentlyPlaying, setCurrentlyPlaying] = useState(null);
 
-  function getTopicData(topic) {
-    const topicData = {
-      "Buddhism": buddhism,
-      "Comparative Philosophy": comparativePhilosophy,
-      "Comparative Religion": comparativeReligion,
-      "Early Radio Talks": earlyRadioTalks,
-      "Eastern & Western Zen": easternWesternZen,
-    };
-    console.log("Fetching data for topic:", topic);
-    console.log("Data fetched:", topicData[topic]);
-
-    return topicData[topic];
-  }
-
   useEffect(() => {
-    try {
-      const data = getTopicData(topic);
-      if (!data || !Array.isArray(data)) {
-        throw new Error(`Invalid or missing data for topic: ${topic}`);
+    const fetchTopicData = async () => {
+      try {
+        const response = await fetch(`data/${topic.toLowerCase().replace(/\s+/g, "-")}.json`);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        if (!data || !Array.isArray(data)) {
+          throw new Error(`Invalid or missing data for topic: ${topic}`);
+        }
+        setTracks(data);
+        setError(null);
+      } catch (err) {
+        setTracks([]);
+        setError(err.message || "An unexpected error occurred.");
       }
-      setTracks(data);
-      setError(null);
-    } catch (err) {
-      setTracks([]);
-      setError(err.message || "An unexpected error occurred.");
-    }
+    };
+
+    setTracks([]);
+    setError(null);
+    setOverlayContent(null);
+    setCurrentlyPlaying(null);
+
+    fetchTopicData();
   }, [topic]);
 
   function openOverlay(title, notes) {
@@ -52,9 +46,9 @@ function TopicPage({ topic }) {
 
   function handlePlay(audioElement) {
     if (currentlyPlaying && currentlyPlaying !== audioElement) {
-      currentlyPlaying.pause(); // Pause the currently playing audio
+      currentlyPlaying.pause(); 
     }
-    setCurrentlyPlaying(audioElement); // Set the new audio as currently playing
+    setCurrentlyPlaying(audioElement); 
   }
 
 
