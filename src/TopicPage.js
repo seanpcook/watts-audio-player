@@ -10,8 +10,10 @@ function TopicPage({ topic }) {
   const [currentlyPlaying, setCurrentlyPlaying] = useState(null);
 
   useEffect(() => {
+    console.log(`useEffect triggered for topic: ${topic}`);
     const fetchTopicData = async () => {
       try {
+        console.log(`Fetching data for topic: ${topic}`);
         const response = await fetch(`data/${topic.toLowerCase().replace(/\s+/g, "-").replace(/-&/g, "")}.json`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
