@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileText } from "@fortawesome/free-regular-svg-icons";
 import "./TopicPage.css";
@@ -40,18 +40,18 @@ function TopicPage({ topic }) {
 
   function openOverlay(title, notes) {
     setOverlayContent({title, notes});
-  }
+  };
 
   function closeOverlay() {
     setOverlayContent(null);
-  }
+  };
 
   function handlePlay(audioElement) {
     if (currentlyPlaying && currentlyPlaying !== audioElement) {
       currentlyPlaying.pause(); 
     }
     setCurrentlyPlaying(audioElement); 
-  }
+  };
 
 
   return (
