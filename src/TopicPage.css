@@ -136,13 +136,14 @@
   border: none;
   color: #ffa726;
   cursor: pointer;
+  padding: 0px;
 }
 
 .close-overlay:hover {
   color: #ff5722;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 852px) {
   .overlay-content {
     padding: 15px;
     font-size: 14px;
@@ -150,10 +151,26 @@
 
   .close-overlay  {
     font-size: 35px;
-    top: 30px;
+    top: 0px;
     right: 10px;
   }
 }
+
+@media (max-width: 402px) {
+  .overlay-content {
+    max-width: 85%;
+    max-height: 85%;
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .close-overlay  {
+    font-size: 30px;
+    top: 0px;
+    right: 5px;
+  }
+}
+
 
 /* Marquee Container */
 .marquee-container {
